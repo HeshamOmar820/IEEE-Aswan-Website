@@ -783,7 +783,7 @@ footer iframe{
         display: none;
     }
     .about .content h3{
-        font-size: 18px;
+        font-size: 20px;
         padding: 20px 20px;
     }
     .about .content p{
@@ -858,5 +858,11 @@ footer iframe{
         max-height: 80px;
         overflow: hidden;
         vertical-align: middle;
+    }
+    .about .content p{
+        font-size: 14px;
+    }
+    .about .content h3{
+        font-size: 20px;
     }
 }
