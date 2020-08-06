@@ -832,3 +832,19 @@ footer iframe{
         width: 100%;
     }
 }
+@media (max-width: 449px){
+    .partners .part{
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        width: 150px;
+        height: 100px;
+    }
+    .partners .part img{
+        max-width: 140px;
+        max-height: 90px;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+}
