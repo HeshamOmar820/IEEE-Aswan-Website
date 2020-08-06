@@ -782,8 +782,13 @@ footer iframe{
     .slider {
         display: none;
     }
+    .about .content h3{
+        font-size: 18px;
+        padding: 20px 20px;
+    }
     .about .content p{
-        font-size: 16px;
+        font-size: 14px;
+        line-height: 2em;
     }
     .testimonials .border-box{
         border: rgba(11, 165, 241, 0.81) 3px solid;
