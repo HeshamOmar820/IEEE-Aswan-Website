@@ -787,7 +787,7 @@ footer iframe{
     }
     .testimonials .border-box{
         border: rgba(11, 165, 241, 0.81) 3px solid;
-        border-top-left-radius: 800px;
+        border-top-left-radius: 80px;
         border-bottom-right-radius: 100px;
         border-bottom-left-radius: 20px;
         border-top-right-radius: 20px;
