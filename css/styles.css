@@ -933,7 +933,8 @@ footer iframe{
     }
     
     iframe{
-        width: 100%;
+        margin: 5px auto;
+        width: 80%;
     }
 }
 @media (max-width: 449px){
