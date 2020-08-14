@@ -933,8 +933,7 @@ footer iframe{
     }
     
     iframe{
-        margin: 5px auto;
-        width: 80%;
+        width: 100%;
     }
 }
 @media (max-width: 449px){
@@ -958,4 +957,76 @@ footer iframe{
     .about .content h3{
         font-size: 18px;
     }
+    iframe{
+        margin: 5px auto;
+        width: 85%;
+    }
+    body{
+        padding-top: 50px;
+    }
+    .navbar-inverse .navbar-brand{
+        font-size: 20px;
+        line-height: 20px;
+        padding-bottom: auto;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    nav .navbar-header .navbar-toggle{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        margin-top: 16px !important;
+    }
+    nav .navbar-header .navbar-toggle span{
+        width: 16px;
+        height: 2px;
+        border-radius: 0 !important;
+        padding: 1px 0 1px;
+    }
+    .slider {
+        display: none;
+    }
+    .about .content p{
+        font-size: 14px;
+    }
+    .about .content h3{
+        font-size: 18px;
+    }
+    .testimonials .border-box{
+        border: rgba(11, 165, 241, 0.81) 3px solid;
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    footer{
+        text-align: center;
+    }
+    .wrapper{
+        margin: 10px auto;
+    }
+    footer .wrapper .button:hover{
+        width: 60px;
+    }
+    .wrapper a .button .icon i{
+        color: #fff;
+    }
+    .wrapper a:nth-child(1) .button .icon{
+        background: #4267B2;
+    }
+    .wrapper a:nth-child(2) .button .icon{
+        background: #1DA1F2;
+    }
+    .wrapper a:nth-child(3) .button .icon{
+        background: #007ab9;
+    }
+    .wrapper a:nth-child(4) .button .icon{
+        background: #FF0000;
+    }
+
 }
