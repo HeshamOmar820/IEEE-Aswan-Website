@@ -106,12 +106,17 @@ body{
 .about-us{
     padding-top: 10px;
 }
+.bein .bread{
+    padding-top: 10px;
+}
 .about-us .breadcrumb,
-.gallery .breadcrumb{
+.gallery .breadcrumb,
+.bein .breadcrumb{
     padding-top: 10px;
 }
 .about-us .bread .breadcrumb ol,
-.gallery .bread .breadcrumb ol{
+.gallery .bread .breadcrumb ol,
+.bein .bread .breadcrumb ol{
     margin-bottom: 0;
     background-color:transparent;
     padding: 0;
@@ -120,9 +125,15 @@ body{
 .gallery .breadcrumb li a{
     color: #0072A8;
 }
+.bein .breadcrumb li a{
+    color: #FFF;
+}
 .about-us .breadcrumb > .active,
 .gallery .breadcrumb > .active{
     color: #333;
+}
+.bein .breadcrumb > .active{
+    color: rgba(255, 255, 255, .7);
 }
 .contact-us .breadcrumb li a{
     color: #0072A8;
@@ -135,11 +146,6 @@ body{
 .about-us .ieee-reg,
 .about-us .ieee-eg,
 .about-us .ieee-aswan{
-    /*border: 2px #0072A8 solid;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;*/
     margin-bottom: 40px;
     padding-top: 30px;
 }
@@ -159,15 +165,13 @@ body{
 }
 
 .about-us .ieee-reg .img-holder img,
-.about-us .ieee-global .img-holder img{
-    width: 60%;
+.about-us .ieee-global .img-holder img,
+.about-us .ieee-eg .img-holder img{
+    width: 50%;
     margin: 0 auto;
 }
-.about-us .ieee-eg .img-holder img{
-    margin: 0 auto 20px;
-}
 .about-us .ieee-aswan .img-holder img{
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
 }
 .faq-questions .panel-heading a{
@@ -204,6 +208,89 @@ body{
     will-change: transform;
 
 }
+/**************************************/
+.bein{
+    background: url("../images/hall.jpg") center no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bein .opaci{
+    background-color: rgba(26, 128, 182, 0.6);
+    padding: 40px 0 30px;
+}
+.bein .content{
+    color: #FFF;
+}
+.bein h1{
+    font-family: 'Pangolin', cursive;
+    font-size: 45px;
+    margin: 30px auto 20px;
+}
+.bein .description{
+    font-size: 16px;
+    width: 90%;
+    margin: 10px auto 30px;
+}
+.bein .feat{
+    background: rgba(255, 255, 255, .5);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+    margin-bottom: 20px;
+    transition: all .15s ease;
+    padding: 20px;
+    color: rgb(28, 44, 59);
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bein .feat:hover{
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07)!important;
+    background: #FFF;
+}
+.bein .feat .fas{
+    font-size: 45px;
+    padding: 10px 10px 0;
+}
+.bein .feat h3{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.bein .feat .lead{
+    font-size: 16px;
+    line-height: 1.7em;
+}
+.history{
+    padding: 0 30px;
+}
+.history .first,
+.history .second,
+.history .third{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(11, 165, 241, 0.81);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+}
+.history .details{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.history .details i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/***********************************************/
 @keyframes floating{
     0%,100%{
         transform: scale(1.2);
@@ -251,68 +338,7 @@ body{
     font-size: 16px;
     line-height: 1.5em;
 }
-
-/*--------------------------------*/
-/*.testimonials{
-    padding-bottom: 50px;
-    padding-bottom: 50px;
-}
-.testimonials .border-box{
-    border: rgba(11, 165, 241, 0.81) 3px solid;
-    border-top-left-radius: 120px;
-    border-bottom-right-radius: 120px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.testimonials h1{
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.testimonials .lead{
-    line-height: 2em;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-.testimonials span{
-    font-size: 16px;
-    font-weight: bold;
-    color: #0072A8;
-}
-
-.testimonials .carousel-inner{
-    min-height: 120px;
-}
-
-.testimonials .carousel-indicators{
-    position: static;
-    width: 100%;
-    margin-left: auto
-    ;
-}
-.testimonials .carousel-indicators li{
-    text-indent: 0;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid #FFF;
-    margin: 5px;
-    opacity: .5;
-    transition: all 0.2s ease-in-out;
-}
-.testimonials .carousel-indicators .active{
-    opacity: 1;
-    background: none;
-    border: 3px solid #0072A8;
-    width: 70px;
-    height: 70px;
-}
-.testimonials .carousel-indicators li img{
-    max-wodth: 100%;
-    overflow: hidden;
-    
-}*/
+/**********************************/
 .testimonials {
     padding-top: 20px;
     padding-bottom: 50px;
@@ -510,6 +536,8 @@ body{
 .modal-content {
     position: relative;
     border: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .modal-body{
     margin-top: 10vh;
@@ -593,7 +621,7 @@ body{
 }
 @media (max-width: 768px) {
     .gal-container .modal-content{
-        height:250px;
+        height:50px;
     }
 }
 
@@ -873,6 +901,24 @@ footer iframe{
         height: 2px;
         border-radius: 0 !important;
         padding: 1px 0 1px;
+    }
+    .bein .feat{
+        background: rgba(255, 255, 255, .5);
+        border-top-left-radius: 60px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 60px;
+        margin-bottom: 20px;
+        transition: all .15s ease;
+        padding: 20px;
+        width: 380px;
+        margin: 0 auto 20px;
+        color: rgb(28, 44, 59);
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .slider {
         display: none;
