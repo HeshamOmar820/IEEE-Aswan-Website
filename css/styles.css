@@ -146,7 +146,7 @@ body{
 .about-us .ieee-reg,
 .about-us .ieee-eg,
 .about-us .ieee-aswan{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding-top: 30px;
 }
 .about-us .ieee-global .img-holder,
@@ -1052,7 +1052,6 @@ footer iframe{
     .wrapper a:nth-child(4) .button .icon{
         background: #FF0000;
     }
-    
     iframe{
         width: 100%;
     }
@@ -1118,6 +1117,37 @@ footer iframe{
         border-radius: 0 !important;
         padding: 1px 0 1px;
     }
+    .about-us .ieee-reg .img-holder img,
+    .about-us .ieee-global .img-holder img,
+    .about-us .ieee-eg .img-holder img{
+    width: 100%;
+    margin: 0 auto;
+    }
+    .about-us .ieee-aswan .img-holder img{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .about-us .ieee-global p,
+    .about-us .ieee-reg p,
+    .about-us .ieee-eg p,
+    .about-us .ieee-aswan p{
+    font-size: 14px !important;
+    padding: 15px;
+    }
+    .bein h1{
+        font-size: 40px;
+        margin: 10px auto 20px;
+    }
+    .bein .description{
+        font-size: 14px;
+    }
+    .uea h1{
+        font-size: 40px;
+        margin: 10px auto 20px;
+    }
+    .uea .description{
+        font-size: 14px;
+    }
     .slider {
         display: none;
     }
@@ -1171,5 +1201,4 @@ footer iframe{
     #scroll-top i{
         font-size: 30px;
     }
-
 }
