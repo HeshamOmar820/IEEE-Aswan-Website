@@ -882,6 +882,23 @@ footer iframe{
     }
 }
 
+/*scroll up button*/
+
+#scroll-top{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    color: #FFF;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+}
+
+
 /*---------------------------------*/
 @media (min-width :767px) and (max-width :1007px){
     .navbar-inverse .navbar-brand{
@@ -1039,6 +1056,17 @@ footer iframe{
     iframe{
         width: 100%;
     }
+    #scroll-top{
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        right: 10px;
+        bottom: 10px;
+        line-height: 30px;
+    }
+    #scroll-top i{
+        font-size: 30px;
+    }
 }
 @media (max-width: 449px){
     .partners .part{
@@ -1131,6 +1159,17 @@ footer iframe{
     }
     .wrapper a:nth-child(4) .button .icon{
         background: #FF0000;
+    }
+    #scroll-top{
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        right: 10px;
+        bottom: 10px;
+        line-height: 30px;
+    }
+    #scroll-top i{
+        font-size: 30px;
     }
 
 }
